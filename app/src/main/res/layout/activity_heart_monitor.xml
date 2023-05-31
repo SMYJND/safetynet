@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HeartMonitorActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout_heart_monitor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:id="@+id/heart"
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="-23dp"
+            android:layout_marginEnd="-6dp"
+            android:src="@drawable/heart" />
+
+        <ImageView
+            android:id="@+id/circle"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/circle" />
+
+        <TextView
+            android:id="@+id/bpm_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="40sp"
+            android:textColor="@android:color/black"
+            android:text="0"/>
+
+        <Button
+            android:id="@+id/start_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/bpm_value"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="79dp"
+            android:layout_marginEnd="157dp"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/stop_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/start_button"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="153dp"
+            android:text="Stop" />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

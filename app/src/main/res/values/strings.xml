@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">SAFETYNET</string>
+
+    <!--    Emergency Contact list page -->
+    <string name="ambulance"> </string>
+
+    <string name="police"> </string>
+
+    <string name="fire"> </string>
+
+    <string name="Gov_IC"> </string>
+
+    <string name="child_women"> </string>
+
+    <string name="D_immigration"> </string>
+
+    <string name="SL_tourism"> </string>
+
+    <!-- First Aid Instructions page -->
+
+    <string name="bleeding">
+    "Before providing care, put on protective gloves or use a barrier between you and the victim, to reduce the chance of disease transmission while assisting the injured person. Cleanse your hands thoroughly with soap and water when finished.
+
+    Basic first aid treatment:
+    1. CALL 1990 for medical assistance.
+    2. Keep the victim lying down.
+    3. Apply direct pressure using a clean cloth or sterile dressing directly on the wound.
+    4. DO NOT take out any object that is lodged in a wound; see a doctor for help in removal.
+    5. If there are no signs of a fracture in the injured area, carefully elevate the wound above the victim's heart.
+    6. Once bleeding is controlled, keep the victim warm by covering with a blanket, continuing to monitor for shock."
+</string>
+
+    <string name="wounds">
+    "1. Wash your hands and cleanse the injured area with clean soap and water, then blot dry.
+    2. Apply antibiotic ointment to minor wounds and cover with a sterile gauze dressing or bandage that is slightly larger than the actual wound."
+</string>
+
+    <string name="eye_injuries">"
+    1. If an object is impaled in the eye, CALL 1990 and DO NOT remove the object.
+    2. Cover both eyes with sterile dressings or eye cups to immobilize.
+    3. Covering both eyes will minimize the movement of the injured eye.
+    4. DO NOT rub or apply pressure, ice, or raw meat to the injured eye.
+    5. If the injury is a black eye, you may apply ice to the cheek and area around the eye, but not directly on the eyeball itself.
+
+    How to flush the eyes: If the chemical is in only one eye, flush by positioning the victim's head with the contaminated eye down to prevent flushing the chemical from one eye to another. Flush with cool or room temperature water for 15 minutes or more. Remove contact lenses after flushing."
+</string>
+
+    <string name="burns">"
+    * First Degree Burn: Skin will appear red and may be swollen or painful. Generally does not require medical attention.
+    * Second Degree Burn: Skin will appear red, blistered, and swollen. May require medical attention.
+    * Third Degree Burn: Skin will be visibly charred and may be white. Usually very painful. REQUIRES MEDICAL ATTENTION.
+
+    Basic first aid treatment for 1st degree &amp; some 2nd-degree burns:
+    Submerge the burn area immediately in cool water until the pain stops. If the affected area is large, cover it with cool wet cloths. Do not break blisters if they are present. If pain persists but no medical assistance is needed, apply medicated first aid cream or gel and cover with a sterile dressing. If medical attention is needed, do not apply any cream. Just cover it with a dry, sterile dressing and seek medical help immediately.
+
+    Basic first aid treatment for 3rd degree &amp; some 2nd-degree burns: CALL 1990!! Third-degree burns MUST RECEIVE MEDICAL ATTENTION IMMEDIATELY! DO NOT try to remove any clothing stuck to the burned area. Cover it with a sterile dressing or clean sheet. DO NOT apply any creams or gels."
+</string>
+
+    <string name="chemical_burns">"
+    1. Flush the affected area with cool running water for at least 15 minutes.
+    2. Remove all clothing and jewelry that has been contaminated.
+    3.Monitor victim for shock and seek medical assistance.
+    4.If chemical burn is in the eyes, flush continuously with water and seek medical attention
+immediately."
+    </string>
+
+    <string name="sunburn">
+        "1.Avoid any further exposure to direct sunlight.
+2.Drink plenty of water to prevent dehydration.
+3.Do not apply cold water or ice to a severe burn.
+4.Use over-the-counter remedies to remove discomfort.
+5.If burn is severe and blisters develop, seek medical attention.
+"</string>
+
+    <string name="unconscious">
+        "1.Do not leave an unconscious victim alone except to call 911 for medical help.
+2.Assess victim’s state of awareness by asking if they are OK.
+3.Check the victim’s Airway, Breathing, and Circulation (ABC’s).
+4.If the victim’s ABC’s are not present, perform CPR. IMPORTANT: only a trained &amp; qualified
+person
+should administer CPR.
+5.If ABC’s are present and spinal injury is not suspected, place victim on their side with their chin
+toward the ground to allow for secretion drainage.
+6.Cover the victim with blanket to keep warm and prevent shock. If victim communicates feeling
+warm, remove blanket."
+    </string>
+    <string name="choking">
+        "1.Ask the victim, "Are you OK?"
+2.Do not interfere or give first aid if the victim can speak, breathe, or cough.
+3.If the victim cannot speak, breathe, or cough, ask for someone to call 911 and then perform the
+Heimlich maneuver (abdominal thrust).
+
+How to perform the Heimlich maneuver: Position yourself behind the victim with your arms around
+victim’s stomach. Place the thumb-side of your fist above the victim’s navel and below the lower end
+of the breastbone. Take hold of your fist with your free hand and pull fist upward and in, quickly and
+firmly. Continue with thrusts until the object is dislodged or airway is clear."
+    </string>
+    <string name="poison">
+    "1.Call your local Poison Control Center or 1990 for immediate medical attention.
+2.Antidotes on labels may be wrong!! Do not follow them unless instructed by a physician.
+3.Never give anything by mouth (milk, water, Ipecac, etc.) until you have consulted with a medical
+professional.
+4.Keep a one ounce bottle of Ipecac on hand at all times in case of an emergency, and give only
+when instructed by a physician.
+5.If the poison is on the skin, flush skin with water for 15 minutes, then wash and rinse with soap
+and water.
+6.If poison is in the eye, flush with lukewarm water for 15 minutes. Adults can stand under the
+shower with eyes open. Always consult medical professionals after any eye injury has occurred."
+</string>
+    <string name="animal_bites">
+        "1.Control any bleeding by applying direct pressure or with elevation. To avoid risk of infection, do
+not close wound.
+2.Rinse the bite thoroughly, holding it under running water. Cleanse with soap and water and hold
+under water again for five minutes.
+3.Do not put ointments or medicines on wound. Cover with dry sterile bandage or gauze.
+4.Seek medical assistance immediately.
+* Note: report animal and human bites to local police and/or health authorities."
+    </string>
+    <string name="bee_sting">
+        "1.If possible, remove stinger by scraping it off with a blunt edge (e.g. credit card).
+2.Clean wound and apply cold compress to reduce swelling.
+3.Remove tight clothing and jewelry from areas near the bite in case swelling occurs.
+4.Watch for signs of shock or allergic reaction. Signs include swelling or itching at the wound site,
+dizziness, nausea or difficulty breathing. Seek medical attention immediately if any of these signs
+occur.
+5.Continue monitoring victim for shock until medical help arrives.
+6.Check victim’s Airway, Breathing, and Circulation (ABC’s). If ABC’s are impaired then call 911
+and begin CPR. IMPORTANT: only a trained &amp; qualified person should administer CPR."
+    </string>
+    <!--    About Us Page -->
+    <string name="aboutus_desc">
+        "Welcome to SAFTEYNET, the Emergency Services App that provides easy access to emergency services, first aid instructions, and location-sharing features.
+Our app aims to make emergency situations less stressful by offering a single platform
+with a list of emergency contact numbers and instructions for basic first aid, such as CPR and treating burns.
+Additionally, our location-sharing feature helps emergency services locate the user in need.
+Our team is committed to improving and expanding our app to meet the needs of our users.
+
+        Thank you for choosing SAFTEYNET."
+        </string>
+</resources>

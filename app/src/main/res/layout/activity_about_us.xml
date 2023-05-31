@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="175dp"
+        android:layout_height="173dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/logosmall" />
+
+    <TextView
+        android:id="@+id/aboutUsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logoImageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:text="About Us"
+        android:textColor="@color/thick_red"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/aboutUsTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="54dp"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/aboutUsDescriptionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/aboutus_desc" />
+
+    </ScrollView>
+
+</RelativeLayout>
