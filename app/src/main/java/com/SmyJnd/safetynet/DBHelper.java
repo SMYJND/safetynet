@@ -66,6 +66,19 @@ public class DBHelper extends SQLiteOpenHelper {
     public int getUserAddress(String email) {
         return 0;
     }
+
+//    public void getLoggedinUserDetails(String signup_email2)
+//    {
+//        SQLiteDatabase sqLiteDatabase = this.getReadableDatabase();
+//
+//        String query = "SELECT * FROM users WHERE signup_email= '"+signup_email2+"' ";
+//        Cursor cursor = sqLiteDatabase.rawQuery("", null);
+//        if(cursor.moveToFirst()){
+//            String user_profile_name = cursor.getString(1);
+//            String user_profile_address = cursor.getString(2);
+//            String user_profile_email = cursor.getString(3);
+//        }
+//    }
 }
 
 

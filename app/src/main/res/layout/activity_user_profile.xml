@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
     android:background="@color/off_pink"
     tools:context=".UserProfile">
 
@@ -13,17 +12,17 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <TextView
-            android:id="@+id/user_profile_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Name: "
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textSize="20dp"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="_____________________"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:id="@+id/user_profile_name"/>
     </LinearLayout>
 
     <LinearLayout
@@ -31,7 +30,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
     <TextView
-        android:id="@+id/user_profile_address"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/user_profile_name"
@@ -42,7 +40,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="_____________________"
-            android:textSize="20dp"/>
+            android:textSize="20dp"
+            android:id="@+id/user_profile_address"/>
     </LinearLayout>
 
     <LinearLayout
@@ -50,7 +49,6 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
     <TextView
-        android:id="@+id/user_profile_email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/user_profile_address"
@@ -61,8 +59,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="_____________________"
-            android:textSize="20dp"/>
+             android:id="@+id/user_profile_email"/>
     </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:onClick="logoutUser"
+        android:layout_marginTop="100dp"/>
 
 </LinearLayout>
 

@@ -49,7 +49,7 @@ public class Contact_listActivity extends AppCompatActivity {
         androidData = new DataClass("Ambulance", R.drawable.bb, "1990");
         dataList.add(androidData);
 
-        androidData = new DataClass("Police Emergency", R.drawable.police, "118/119");
+        androidData = new DataClass("Police Emergency", R.drawable.police, "119");
         dataList.add(androidData);
 
         androidData = new DataClass("Fire and Rescue", R.drawable.fire_rescue, "111");

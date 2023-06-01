@@ -48,7 +48,7 @@ public class DetailActivity_contact extends AppCompatActivity {
          button.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                 String Number = getIntent().getStringExtra("number");
+                 String Number = getIntent().getStringExtra("Number");
                  Intent intent = new Intent(Intent.ACTION_DIAL);
                  intent.setData(Uri.parse("tel:"+Number ));
                  startActivity(intent);
